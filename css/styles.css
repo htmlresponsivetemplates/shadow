@@ -1,0 +1,305 @@
+h1{
+    display: none;
+}
+
+/*shared styles*/
+.services h2,
+.possibilities h2,
+.services-thumbnails h2{
+    display: none;
+}
+
+.page-content{
+    background-color: #fff;
+}
+
+.possibilities,
+.services-thumbnails,
+.notificaiton-info{
+    background-color: #fff;
+}
+
+.services, .possibilities{
+    padding: 80px 0;
+}
+
+h2, h3, h4, h5, h6, p, a,
+header h2,
+.notificaiton-info h2,
+.shadow h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.clean{
+    border: 1px solid #ccc;
+}
+
+/*header*/
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    margin-left: -1px;
+    margin-top: -1px;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url('../img/prevpolina.png') no-repeat;
+    /*background: url('/Content/final.png') no-repeat;*/
+    background-size: cover;
+    -moz-transition: 1s opacity;
+    -o-transition: 1s opacity;
+    -webkit-transition: 1s opacity;
+    transition: 1s opacity;
+    -webkit-filter: brightness(50%);
+    -moz-filter: brightness(50%);
+    filter: brightness(50%);
+}
+
+nav{
+    margin-top: 40px;
+
+}
+
+nav ul{
+    float: right;
+    padding: 0 60px;
+}
+
+nav h2{
+    display: none;
+}
+
+nav .navbar-brand{
+    color: #fff;
+}
+
+nav ul a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 20px;     
+}
+
+nav ul a:hover, nav ul a:focus,
+nav ul a:active{
+    color: #fff;
+}
+
+nav ul li:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+nav ul li:hover:after {
+	width: 100%;
+	background: #fff;
+}
+
+#navbar-header{
+    background-color: #030331;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+nav .nav-item.special{
+    border: 1px solid #fff;
+}
+
+header{
+    min-height: 754px;
+    position: relative;
+}
+
+header .fa-rocket{
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+header button:focus{
+    outline: none;
+    border: 1px solid #fff;
+}
+
+header .home-text{
+    text-align: center;
+    color: #fff;
+    margin-top: 10em;
+}
+
+header .home-text h2{
+    font-size: 64px;
+}
+
+header .home-sub-slogan p{
+    margin-top: 20px;
+    color: #ccc;
+    font-size: 26px;
+}
+
+.fadeInBlock {
+    opacity:0;
+}
+
+header .btn-more{
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    margin-bottom: 15px;
+}
+
+.shadow{
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.shadow h2{
+    font-size: 68px;
+    padding: 20px;
+}
+
+/*services*/
+.services{
+    background-color: #fff;
+    text-align: center;
+}
+
+.services .fa{
+    font-size: 48px;
+}
+
+.services .card{
+    border: none;
+}
+
+/*possibilities*/
+.possibilities{
+    padding: 180px 0;
+}
+
+.possibilities .ps{
+    padding: 0 40px;
+}
+
+.possibilities h4{
+    font-size: 38px;
+    padding: 20px 0;
+}
+
+.possibilities .second-ps h4,
+.possibilities .third-ps h4{
+    margin-top: 60px;
+}
+
+.possibilities .third-ps{
+    clear: both;
+}
+
+/*services-thumbnails*/
+.services-thumbnails{
+    padding: 180px 60px 120px 60px;
+}
+
+.services-thumbnails{
+    text-align: center;
+    color: #fff;
+}
+
+.services-thumbnails h4{
+    padding-bottom: 15px;
+}
+
+.services-thumbnails .first-cb{
+    background-color: #0275d8;
+}
+
+.services-thumbnails .second-cb{
+    background-color: #d9534f;
+}
+
+.services-thumbnails .third-cb{
+    background-color: #f0ad4e;
+}
+
+/*notification-info*/
+.notificaiton-info{
+    text-align: center;
+    padding-bottom:  40px;
+}
+
+.notificaiton-info h2{
+    font-size: 64px;
+    font-family: Ubuntu;
+}
+
+.notificaiton-info p{
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 26px;
+}
+
+#contact{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*footer*/
+
+footer{
+    background-color: #151515;
+    padding: 40px;
+}
+
+footer{
+    color: #fff;
+}
+
+footer .footer-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-menu ul li{
+    padding: 5px 0;
+}
+
+footer .footer-menu ul li a{
+    color: #fff;
+}
+
+footer .social-media ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .social-media ul li{
+    float: left;
+}
+
+footer .social-media ul li{
+    padding: 15px;
+    font-size: 32px;
+}
+
+footer > p{
+    margin-bottom: 0;
+    text-align: center;
+}

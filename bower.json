@@ -1,0 +1,27 @@
+{
+  "name": "htmlresponsivetemplates-shadow",
+  "version": "1.0.0",
+  "homepage": "http://htmlresponsivetemplates.com/project/shadow",
+  "description": "Free open-source Bootstrap 4 Shadow landing page template.",
+  "keywords": [
+    "bootstrap 4",
+    "theme",
+    "template",
+    "landing page",
+    "one page"
+  ],
+  "authors": [
+    "Mateusz Jerzyk"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "index.html"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.4",
+    "jquery": "^3.1.1",
+    "jquery.easing": "^1.3.1"
+  }
+}
